@@ -1,0 +1,88 @@
+.grid-column-layout{
+    display: grid;
+    grid-template-rows: 0.1fr 2fr 2fr 2fr;}
+
+.form{
+    background-color:#9c9c9c;
+}
+
+.content{
+    background-color: #73B0FF;
+    height:75
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bi-cart{
+    margin:25px;
+    color:#73B0FF;
+    margin-right: 100px;
+    
+}
+
+.bi-search{
+    color: #73B0FF;
+    margin-right:95px
+}
+
+input{
+    display:block;
+    padding:10px;
+    margin:10px;
+    width:auto;
+    align-content: center;
+}
+
+input:hover, input:focus{
+    border:2px solid #73B0FF;
+}
+
+button{
+    padding:15px 40px 15px 40px;
+    color:white;
+    background-color:#fd8631;
+    font-size:15px;
+    font-style: normal;
+    border-radius:10px;
+}
+
+.tips{
+    padding:20px;
+    border:5px solid #fd8631
+}
+
+li{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .grid-column-layout{
+        display:grid; 
+        grid-template-rows: 1fr 5fr 2fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header{
+        grid-column-start: 1;
+        grid-column-end:5;
+    }
+
+    .tips{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .footer{
+        grid-column-start: 1;
+        grid-column-end:5;
+    }
+}

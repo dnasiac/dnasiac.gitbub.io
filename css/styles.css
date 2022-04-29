@@ -1,0 +1,98 @@
+.grid-column-layout{
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 4fr 3fr 2fr 0.5fr;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.bi-cart{
+    margin:25px;
+    color:#73B0FF;
+    margin-right: 100px;
+    
+}
+
+.bi-search{
+    color: #73B0FF;
+    margin-right:95px
+}
+
+
+.banner{
+    width:auto;
+    border:5px solid #fd8631;
+}
+
+.banner-pic{
+    margin:15px;
+    margin-left: 100px;
+    padding:10px;
+}
+
+.banner-word{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;}
+
+
+.updates{
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.featured{ 
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:fit-content;
+    margin:15px;
+    padding:5px;
+    border:2px solid #73B0FF;
+}
+
+.card-img-top{
+    width: fit-content;
+    margin:10px
+}
+
+.card-title, .card-text{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button{ 
+    background-color:#9C9C9C;
+    border-radius: 5px;
+}
+.form-box{
+    max-width: 500px;
+    margin:15px auto;
+    background: white;
+    border: 5px solid #73B0FF;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-box2{
+    align-items: center;
+}
+
+#email{
+    margin:25px;
+}
+
+
+input{
+    padding:10px;
+    margin:5px;
+    width:50%;
+}
+
+.footer{
+    background-color:#fd8631;
+}
+ 
+
